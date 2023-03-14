@@ -1,7 +1,11 @@
 # Random-Coding-Image-Generator
 Random Coding Image Generator
 
-<img src="https://source.unsplash.com/featured/?programming&<?php echo rand(); ?>" alt="Random coding image from Unsplash" width="100%">
+GET https://api.unsplash.com/photos/random?query=programming&orientation=landscape&client_id=KAUIqn7nY4obFSaPk0olfrQagyAyt46aZilfbls0NAQ
+
+
+curl "https://api.unsplash.com/photos/random?query=programming&orientation=landscape&client_id=KAUIqn7nY4obFSaPk0olfrQagyAyt46aZilfbls0NAQ"
+
 
 
 

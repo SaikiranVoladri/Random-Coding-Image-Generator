@@ -2,22 +2,21 @@
 Random Coding Image Generator
 
 
-Authorization: Client-ID {access_key}
-
-const accessKey = 'KAUIqn7nY4obFSaPk0olfrQagyAyt46aZilfbls0NAQ';
+const accessKey = 'KAUIqn7nY4obFSaPk0olfrQagyAyt46aZilfbls0NAQ'; 
 const apiUrl = 'https://api.unsplash.com/photos/random';
 
-fetch(apiUrl, {
-  headers: {
-    Authorization: `Client-ID ${accessKey}`
-  }
+fetch(apiUrl, { 
+  headers: { 
+    Authorization: `Client-ID ${aKAUIqn7nY4obFSaPk0olfrQagyAyt46aZilfbls0NAQ}`
+  } 
 })
-  .then(response => response.json())
-  .then(data => {
-    const imageUrl = data.urls.regular;
-    console.log('Random image URL:', imageUrl);
-  })
-  .catch(error => console.error(error));
+.then(response => response.json())
+.then(data => { 
+  const imageUrl = data.urls.regular; 
+  console.log('Random image URL:', imageUrl); 
+})
+.catch(error => console.error(error));
+
 
 
 
